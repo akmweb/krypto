@@ -2,11 +2,11 @@ import Navbar from '../components/Navbar'
 import HeroImg from '../assets/HeroImage.svg'
 import Button from '../components/Button'
 import bgImg from '../assets/Bg-gradient2.png'
-import Featured from '../sections/Featured.jsx'
+
 
 const Hero = () => {
   return (
-    <main className='h-screen w-screen p-10 flex flex-col justify-between gap-7'>
+    <main className='h-screen w-full flex flex-col justify-between'>
       <Navbar/>
       <section className='flex justify-center items-center w-full h-full max-lg:flex-col max-md:gap-4'>
         <div className='flex flex-col items-start text-white w-full gap-7 max-md:w-full'>
@@ -21,11 +21,10 @@ const Hero = () => {
         </div>
         <div className='flex justify-center items-center w-full'>
           <img src={HeroImg} alt="hero-img" className='w-[80%] max-md:w-[70%] '/>
-          <img src={bgImg} alt="bgImage" className='absolute inset-0  h-full object-cover pointer-events-none w-full'/>
+          <img src={bgImg} alt="bgImage" className='absolute inset-0  h-full object-cover pointer-events-none w-full  opacity-40'/>
         </div>
         
       </section>
-      <Featured />
     </main>
   )
 }
