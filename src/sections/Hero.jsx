@@ -6,12 +6,12 @@ import Featured from '../sections/Featured.jsx'
 
 const Hero = () => {
   return (
-    <main className='h-screen w-screen p-8 flex flex-col justify-between gap-7'>
+    <main className='h-screen w-screen p-10 flex flex-col justify-between gap-7'>
       <Navbar/>
       <section className='flex justify-center items-center w-full h-full max-lg:flex-col max-md:gap-4'>
-        <div className='flex flex-col items-start text-white w-full gap-6 max-md:w-full'>
+        <div className='flex flex-col items-start text-white w-full gap-7 max-md:w-full'>
          
-          <h1 className='uppercase outfit text-7xl font-bold w-[85%] max-md:text-4xl max-md:w-[80%]'>discover and collect rare NFTs</h1>
+          <h1 className='uppercase outfit text-7xl font-bold w-[85%] max-md:text-4xl max-md:w-[85%]'>discover and collect rare NFTs</h1>
           <p className='outfit text-xl w-[65%] max-md:w-[80%] max-md:text-lg'>The most secure marketplace for buying and selling unique crypto assets.</p>
           <div className='flex  items-center gap-5'>
             <Button title="Buy nfts"/>
