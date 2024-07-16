@@ -1,6 +1,7 @@
 import Analytics from "./sections/Analytics"
 import Hero from "./sections/Hero"
 import Featured from './sections/Featured'
+import Get from "./sections/Get"
 
 
 
@@ -10,6 +11,7 @@ const App = () => {
      <Hero/>
      <Featured/>
      <Analytics/>
+     <Get/>
  
    </main>
   )
