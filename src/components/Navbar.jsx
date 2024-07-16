@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="flex flex-col">
       <div className='outfit text-white flex justify-between items-center z-10'>
-        <a href="/" className="uppercase font-bold">krypto</a>
+        <a href="/" className="uppercase font-bold outfit">krypto</a>
         <div className="flex items-center gap-16 max-md:hidden pointer">
           <a href="">about</a>
           <a href="">pricing</a>

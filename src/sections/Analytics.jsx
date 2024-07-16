@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 const Analytics = () => {
   return (
-    <section className='w-full h-screen flex justify-between gap-28 items-center max-lg:flex-col max-md:gap-4 '>
+    <section className='w-full h-screen flex justify-center gap-28 items-center max-lg:flex-col max-md:gap-4 '>
 
        <div className='w-full h-full'>
         <img src={AnalyticsImg} alt="hero-img" className='w-full'/>
@@ -11,7 +11,7 @@ const Analytics = () => {
        
        
       <div className='flex flex-col items-start text-white w-full gap-5 '>
-        <p className='uppercase '>ANALYTICS</p>
+        <p className='uppercase outfit'>ANALYTICS</p>
         <h1 className='uppercase outfit text-5xl font-bold w-full max-md:text-4xl max-md:w-[85%]'>built-in analytics to track your nfts</h1>
         <p className='outfit text-xl w-[75%] max-md:w-[80%] max-md:text-lg'>Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time.</p>
         <Button title="view our pricing"/>
