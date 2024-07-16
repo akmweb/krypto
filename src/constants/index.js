@@ -23,3 +23,27 @@ export const cards = [
     {id: 2, href: Testitem2, alt: 'Testitem2', name: 'mark jackson', paragraph: ' "What sets Krypto apart is their unwavering commitment to security. I have peace of mind knowing that my investments are protected by state-of-the-art security measures. Additionally, their transparent fee structure and real-time transaction tracking ensure that there are no hidden surprises, which is a huge plus for any investor."'},
     {id: 3, href: Testitem3, alt: 'Testitem3', name: 'silva', paragraph: ' "Overall, Krypto has proven to be a reliable and efficient partner in my cryptocurrency journey. Their innovative features and dedication to customer satisfaction make them a standout in the market. I highly recommend Krypto to anyone looking to delve into the world of cryptocurrency with confidence."'},
 ];
+
+export const kryptoLinks = [
+    {id: 1,title: 'Home'},
+    {id: 2, title: 'About'},
+    {id: 3, title: 'Buy Nfts'},
+    {id: 4, title: 'Sell nfts'}
+];
+
+
+export const marketLinks = [
+    {id: 1,title: 'Browse Nfts'},
+    {id: 2, title: 'Buy Nfts'},
+    {id: 3, title: 'Sell Nfts'}
+];
+
+export const contactLinks = [
+    {id: 1, title: 'Email'},
+    {id: 2, title: 'Linkedin'},
+    {id: 3, title: 'Instagram'}
+];
+
+
+
+

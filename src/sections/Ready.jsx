@@ -3,7 +3,7 @@ import Footer from "../components/Footer"
 
 const Ready = () => {
   return (
-   <section className="w-screen h-screen flex flex-col justify-center items-center p-5">
+   <section className="w-screen h-full flex flex-col justify-center items-center p-5">
      <div className='w-full h-full flex justify-center items-center p-10'>
         <div className='w-full h-96 bg-gradient-to-r from-[#66819D] to-[#27235C] 
         rounded-xl flex flex-col justify-center items-center gap-5 p-5'>
