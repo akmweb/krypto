@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import Featured from './sections/Featured'
 import Get from "./sections/Get"
 import Testimonials from "./sections/Testimonials"
+import Ready from "./sections/Ready"
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
      <Analytics/>
      <Get/>
      <Testimonials/>
+     <Ready/>
    </main>
   )
 }

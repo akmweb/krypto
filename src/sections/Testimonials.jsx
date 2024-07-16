@@ -2,7 +2,7 @@ import { cards } from "../constants"
 
 const Testimonials = () => {
   return (
-    <section className="w-screen h-screen flex flex-col justify-around items-center">
+    <section className="w-screen h-auto flex flex-col justify-around items-center">
       <div className="flex flex-col justify-center items-center text-white gap-3">
         <p className="uppercase outfit">testimonials</p>
         <h1 className="uppercase outfit text-3xl font-bold">read what others <span className="flex justify-center">have to say</span></h1>
