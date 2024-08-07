@@ -1,7 +1,5 @@
 # KRYPTO
 
-responsive Design: clean and modern 
-
 Live Demo: https://kryptoapp.vercel.app/
 
 
